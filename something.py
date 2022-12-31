@@ -16,8 +16,8 @@ colors = ["darkslategray2", "lightpink1", "plum3", "thistle1"]
 #LET'S CREATE THE FOR LOOP
 
 for index, i in enumerate(t): 
-    i.seed(0)
-    i.color("white")
+    i.speed(0)
+    i.color("brown")
     i.shape("circle")
     i.shapesize(0.3)
     i.width(3)
